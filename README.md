@@ -1,59 +1,62 @@
-# MusicApp
+🎵 SymphoNode  
+*The Network of Music*
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
+SymphoNode is a lightweight music web application built using **Angular (standalone components)**.  
+It allows users to browse songs, manage playlists, and play audio locally using MP3 files.
 
-## Development server
+This project is designed to demonstrate:
+- Component-based architecture
+- Service-based state management
+- Routing in Angular
+- Playlist creation and song management
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🚀 Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- 🎧 Play local MP3 songs
+- ❤️ Mark songs as favorites
+- 📂 Create multiple playlists
+- ➕ Add songs to playlists
+- ➖ Remove songs from playlists
+- 🎨 Simple, clean UI with navigation
+- 🧩 Built entirely using **Angular standalone components**
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tech Stack
 
-```bash
-ng generate component component-name
-```
+- **Frontend:** Angular 20 (Standalone Components)
+- **Language:** TypeScript
+- **Styling:** CSS
+- **Audio:** HTML5 Audio API
+- **Package Manager:** npm
+- **Version Control:** Git + GitHub
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📁 Project Structure
+music-app/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ │ ├── navbar/
+│ │ │ ├── song-list/
+│ │ │ ├── song-player/
+│ │ │ ├── playlist-manager/
+│ │ │ └── artists/
+│ │ ├── core/
+│ │ │ ├── models/
+│ │ │ └── services/
+│ │ ├── app.ts
+│ │ ├── app.routes.ts
+│ │ └── app.config.ts
+│ ├── assets/
+│ │ ├── audio/
+│ │ └── image/
+│ └── index.html
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── README.md
+└── .gitignore
