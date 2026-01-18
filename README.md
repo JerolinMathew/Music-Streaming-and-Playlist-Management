@@ -79,6 +79,13 @@ music-app/
 ├── .editorconfig
 ├── angular.json
 ├── .gitignore
-└── package.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.spec.json
+├── README.md
+
 ```
+
 
