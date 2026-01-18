@@ -37,6 +37,7 @@ This project is designed to demonstrate:
 
 ## 📁 Project Structure
 music-app/
+
 ├── src/
 │ ├── app/
 │ │ ├── components/
@@ -45,13 +46,16 @@ music-app/
 │ │ │ ├── song-player/
 │ │ │ ├── playlist-manager/
 │ │ │ └── artists/
+
 │ │ ├── core/
 │ │ │ ├── models/
 │ │ │ └── services/
 │ │ ├── app.ts
+
 │ │ ├── app.routes.ts
 │ │ └── app.config.ts
 │ ├── assets/
+
 │ │ ├── audio/
 │ │ └── image/
 │ └── index.html
@@ -60,3 +64,4 @@ music-app/
 ├── tsconfig.json
 ├── README.md
 └── .gitignore
+
