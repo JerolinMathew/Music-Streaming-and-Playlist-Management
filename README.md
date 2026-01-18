@@ -36,32 +36,49 @@ This project is designed to demonstrate:
 ---
 
 ## 📁 Project Structure
+```text
 music-app/
-
+├── public/
+│
 ├── src/
-│ ├── app/
-│ │ ├── components/
-│ │ │ ├── navbar/
-│ │ │ ├── song-list/
-│ │ │ ├── song-player/
-│ │ │ ├── playlist-manager/
-│ │ │ └── artists/
-
-│ │ ├── core/
-│ │ │ ├── models/
-│ │ │ └── services/
-│ │ ├── app.ts
-
-│ │ ├── app.routes.ts
-│ │ └── app.config.ts
-│ ├── assets/
-
-│ │ ├── audio/
-│ │ └── image/
-│ └── index.html
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── artist-detail/
+│   │   │   ├── artists/
+│   │   │   ├── navbar/
+│   │   │   ├── playlist-manager/
+│   │   │   ├── song-list/
+│   │   │   └── song-player/
+│   │   │
+│   │   ├── core/
+│   │   │   ├── models/
+│   │   │   │   ├── artist.model.ts
+│   │   │   │   ├── playlist.model.ts
+│   │   │   │   └── song.model.ts
+│   │   │   │
+│   │   │   └── services/
+│   │   │       ├── artist.service.ts
+│   │   │       ├── audio.service.ts
+│   │   │       ├── music.service.ts
+│   │   │       └── playlist.service.ts
+│   │   │
+│   │   ├── app.config.ts
+│   │   ├── app.css
+│   │   ├── app.html
+│   │   ├── app.routes.ts
+│   │   ├── app.spec.ts
+│   │   └── app.ts
+│   │
+│   └── assets/
+│       ├── audio/
+│       └── image/
+│
+├── index.html
+├── main.ts
+├── styles.css
+├── .editorconfig
 ├── angular.json
-├── package.json
-├── tsconfig.json
-├── README.md
-└── .gitignore
+├── .gitignore
+└── package.json
+```
 
