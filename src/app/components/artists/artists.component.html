@@ -1,10 +1,12 @@
 <div class="artists-list">
-  <div class="artist" *ngFor="let a of artists">
-    <img [src]="a.imageUrl" alt="{{ a.name }}" width="80"/>
-    <div class="meta">
-      <h3>{{ a.name }}</h3>
-      <div class="genre">{{ a.genre }}</div>
-      <p class="bio">{{ a.bio }}</p>
+  @for (a of artists; track a.id) {
+    <div class="artist">
+      <img [src]="a.imageUrl" alt="{{ a.name }}" width="80"/>
+      <div class="meta">
+        <h3>{{ a.name }}</h3>
+        <div class="genre">{{ a.genre }}</div>
+        <p class="description">{{ a.description }}</p>
+      </div>
     </div>
-  </div>
+  }
 </div>
